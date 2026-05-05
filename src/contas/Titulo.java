@@ -10,7 +10,7 @@ public class Titulo extends Conta{
 
 	@Override
 	public double getValorAPagar(int diaPago, int mesPago) {
-		if(mesPago > this.mes | (mesPago == this.mes && diaPago > mesPago)) {
+		if(mesPago > this.mes | (mesPago == this.mes && diaPago > this.dia)) {
 			return this.valor * multaPercentual;
 		}
 		return valor;

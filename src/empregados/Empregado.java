@@ -8,7 +8,6 @@ public abstract class Empregado implements Passivo{
 	protected int numIdent;
 	
 	public Empregado(String nome, String sobrenome, int numIdent) {
-		super();
 		this.nome = nome;
 		this.sobrenome = sobrenome;
 		this.numIdent = numIdent;
