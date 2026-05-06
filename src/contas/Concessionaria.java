@@ -2,7 +2,7 @@ package contas;
 
 public class Concessionaria extends Conta{
 
-	public Concessionaria(int dia, int mes, int valor) {
+	public Concessionaria(int dia, int mes, double valor) {
 		super(dia, mes, valor);
 	}
 
@@ -11,6 +11,11 @@ public class Concessionaria extends Conta{
 		return valor;
 	}
 	
+	
+	@Override 
+	public String toString() {
+		return super.toString().replace("Conta", "Concessionaria");
+	}
 	
 	
 }

@@ -36,6 +36,14 @@ public abstract class Empregado implements Passivo{
 	public void setNumIdent(int numIdent) {
 		this.numIdent = numIdent;
 	}
+
+	
+	
+	@Override
+	public String toString() {
+		return "Empregado: {nome=" + this.getNome() + ", sobrenome=" + this.getSobrenome() + ", numIdent=" + this.getNumIdent() + "}";
+	}
+	
 	
 	
 	

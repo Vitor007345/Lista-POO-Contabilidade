@@ -20,6 +20,16 @@ public class Terceirizado extends Empregado{
 	public double getValorAPagar(int diaPago, int mesPago) {
 		return horasTrabalhadas * HORA;
 	}
+
+	@Override
+	public String toString() {
+		String str = super.toString().replace("Empregado", "Terceirizado");
+		str = str.substring(0, str.length() - 2);
+		str += ", horasTrabalhadas=" + this.getHorasTrabalhadas() + "}";
+		return str;
+	}
+	
+	
 	
 	
 	

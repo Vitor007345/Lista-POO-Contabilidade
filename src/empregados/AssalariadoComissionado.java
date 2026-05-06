@@ -12,6 +12,9 @@ public class AssalariadoComissionado extends Comissionado{
 		return (SALARIO * percentualBonus) + super.getValorAPagar(diaPago, mesPago);
 	}
 	
-	
+	@Override
+	public String toString() {
+		return super.toString().replace("Empregado", "AssalariadoComissionado");
+	}
 	
 }

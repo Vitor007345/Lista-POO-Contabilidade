@@ -1,3 +1,10 @@
+/**********************************************************************************************
+ * Cansei de fazer menu toda vez então fiz esse packged com essas classes em que a principal é esse
+ * que é o Menu pra nunca mais prescisar gastar tempo codificando menu da aplicação pra testes
+ * Pretendo tranformar isso em uma lib um dia
+***********************************************************************************************/
+
+
 package menu;
 
 import java.util.ArrayList;
@@ -74,10 +81,9 @@ public class Menu {
 	}
 	
 	public void start() {
-		System.out.println(this.getMenuStr());
 		boolean invalido;
 		do {
-			
+			System.out.println(this.getMenuStr());
 			try {
 	            int userResponse = sc.nextInt();
 	            sc.nextLine(); //clean buffer

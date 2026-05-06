@@ -20,7 +20,13 @@ public class Comissionado extends Empregado{
 		return this.valorVendas * percentualSobreVendas;
 	}
 	
-	
+	@Override
+	public String toString() {
+		String str = super.toString().replace("Empregado", "Comissionado");
+		str = str.substring(0, str.length() - 2);
+		str += ", valorVendas=" + this.getValorVendas() + "}";
+		return str;
+	}
 	
 	
 	

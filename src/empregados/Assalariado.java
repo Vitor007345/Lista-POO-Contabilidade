@@ -21,6 +21,13 @@ public class Assalariado extends Empregado{
 		return SALARIO + (this.getHorasExtras() * HORA);
 	}
 	
+	@Override
+	public String toString() {
+		String str = super.toString().replace("Empregado", "Assalariado");
+		str = str.substring(0, str.length() - 2);
+		str += ", horasExtras=" + this.getHorasExtras() + "}";
+		return str;
+	}
 	
 	
 }

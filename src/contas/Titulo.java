@@ -4,7 +4,7 @@ public class Titulo extends Conta{
 	
 	public static double multaPercentual = 1.1;
 
-	public Titulo(int dia, int mes, int valor) {
+	public Titulo(int dia, int mes, double valor) {
 		super(dia, mes, valor);
 	}
 
@@ -14,6 +14,11 @@ public class Titulo extends Conta{
 			return this.valor * multaPercentual;
 		}
 		return valor;
+	}
+	
+	@Override 
+	public String toString() {
+		return super.toString().replace("Conta", "Titulo");
 	}
 	
 	
