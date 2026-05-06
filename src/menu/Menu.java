@@ -1,6 +1,6 @@
 /**********************************************************************************************
- * Cansei de fazer menu toda vez então fiz esse packged com essas classes em que a principal é esse
- * que é o Menu pra nunca mais prescisar gastar tempo codificando menu da aplicação pra testes
+ * Cansei de fazer menu toda vez então fiz esse packged com essas classes em que a principal é essa
+ * que é o Menu pra nunca mais prescisar gastar tempo codificando menu da aplicação pra testes.
  * Pretendo tranformar isso em uma lib um dia
 ***********************************************************************************************/
 

@@ -23,7 +23,7 @@ public class Comissionado extends Empregado{
 	@Override
 	public String toString() {
 		String str = super.toString().replace("Empregado", "Comissionado");
-		str = str.substring(0, str.length() - 2);
+		str = str.substring(0, str.length() - 1);
 		str += ", valorVendas=" + this.getValorVendas() + "}";
 		return str;
 	}

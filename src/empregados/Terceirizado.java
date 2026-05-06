@@ -24,7 +24,7 @@ public class Terceirizado extends Empregado{
 	@Override
 	public String toString() {
 		String str = super.toString().replace("Empregado", "Terceirizado");
-		str = str.substring(0, str.length() - 2);
+		str = str.substring(0, str.length() - 1);
 		str += ", horasTrabalhadas=" + this.getHorasTrabalhadas() + "}";
 		return str;
 	}

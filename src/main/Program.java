@@ -23,10 +23,10 @@ public class Program {
 
 	public static void main(String[] args) {
 		ControlePagamento ctrlPag = new ControlePagamento();
-		ctrlPag.addPagamento(new Terceirizado("Jacinto", "Leite", 9, 34.3));
-		ctrlPag.addPagamento(new Comissionado("Gozaru", "Nakara", 11, 450.7));
-		ctrlPag.addPagamento(new AssalariadoComissionado("Thomas", "Turbano", 69, 346.8));
-		ctrlPag.addPagamento(new Assalariado("Max", "Turbano", 67, 3.2));
+		ctrlPag.addPagamento(new Terceirizado("Jacinto", "Souza", 9, 34.3));
+		ctrlPag.addPagamento(new Comissionado("Josoares", "Silva", 11, 450.7));
+		ctrlPag.addPagamento(new AssalariadoComissionado("Joaquim", "Carvalho", 69, 346.8));
+		ctrlPag.addPagamento(new Assalariado("Juvenal", "Gomes", 67, 3.2));
 		ctrlPag.addPagamento(new Titulo(11, 9, 121.5));
 		ctrlPag.addPagamento(new Concessionaria(12, 2, 231.6));
 		
